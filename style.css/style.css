@@ -1,0 +1,229 @@
+/* Reset rules */
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    max-width: 1920px;
+    background-image: url(../img/meetings-bg.jpg);
+}
+
+ul, ol, menu{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+/* header */
+
+header{
+    background-color: rgba(250,250,250,0.15);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+h1{
+    font-size: 28px;
+}
+
+.container-nav{
+    min-height: 80px;
+    max-width: 1150px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-nav li{
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+/* hero */
+
+.main-section{
+    height: 100vh;
+    background-image: url(../img/Screenshot\ .png);
+    background-position: center;
+    z-index: -1;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(31,39,43,0.65);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.caption{
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 68px;
+}
+
+.caption h6{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.caption h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.caption p{
+    color: #fff;
+    font-size: 14px;
+    max-width: 570px;
+    padding-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn-join{
+    font-size: 13px;
+    color: #fff;
+    background-color: #a12c2f;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+/* section-2 */
+
+.title-section-2{
+    line-height: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(196, 193, 193, 0.15);
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.section-2{
+    background-image: url(../img/meetings-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.col-25{
+    flex-basis: 25%;
+    height: 400px;
+}
+
+.col-25 li{
+    margin-bottom: 15px;
+    
+}
+
+.col-25 ul{
+    margin-bottom: 45px;
+}
+
+.col-2{
+    flex-basis: 0;
+    flex-grow: 1;
+ background-color: transparent;
+}
+
+.first-col{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    margin-right: 45px;
+}
+
+.title-meeting{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f272b;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(195, 192, 192);
+}
+
+.col-2 img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.down-content{
+    background-color: #fff;
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.data{
+    float: left;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.down-content h4{
+    font-size: 18px;
+    color: #1f272b;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.down-content p{
+    margin-left: 44px;
+    color: #1f272b;
+    font-size: 14px;
+}
+
+.margin-img{
+    margin-top: 30px;
+}
